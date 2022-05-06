@@ -13,7 +13,7 @@ app.use("/api/auth", userRoutes);
 
 
 mongoose
-  .connect("mongodb+srv://sakshi:sakshi@cluster0.v2o4h.mongodb.net/database?&w=majority", {
+  .connect("URL", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
